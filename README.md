@@ -37,7 +37,7 @@ Sou o **Victor**, formado em **Análise e Desenvolvimento de Sistemas**, com **7
 ### Atividade recente
 
 <!-- ATIVIDADE:INICIO -->
-- Aguardando a primeira execução do workflow.
+- **[farol](https://github.com/victorhugoantonio1/farol)** · Laboratório Zabbix · <sub>12 out</sub>
 <!-- ATIVIDADE:FIM -->
 
 <picture>
