@@ -10,7 +10,7 @@ Sou o **Victor**, formado em **Análise e Desenvolvimento de Sistemas**, com **7
 
 <p align="center">
   <a href="https://github.com/victorhugoantonio1/farol"><img src="assets/card-farol.svg" alt="Farol: ver projeto" width="32%" /></a>
-  <a href="https://www.linkedin.com/in/SEU-PERFIL"><img src="assets/card-linkedin.svg" alt="LinkedIn: conectar" width="32%" /></a>
+  <a href="https://www.linkedin.com/in/vituhzzz/"><img src="assets/card-linkedin.svg" alt="LinkedIn: conectar" width="32%" /></a>
   <a href="https://github.com/victorhugoantonio1?tab=repositories"><img src="assets/card-repos.svg" alt="Repositórios: explorar" width="32%" /></a>
 </p>
 
