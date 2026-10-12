@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="280" viewBox="0 0 880 280" role="img" aria-label="Painel: Victor, desenvolvedor. 7 anos de mercado, formado em ADS, foco em automatizar processos.">
+  <style>
+    .sans { font-family: 'Segoe UI', -apple-system, Helvetica, Arial, sans-serif; }
+    .mono { font-family: ui-monospace, SFMono-Regular, Consolas, monospace; }
+
+    .rise { opacity: 0; animation: rise .7s cubic-bezier(.2,.8,.2,1) forwards; }
+    .r1 { animation-delay: .1s; } .r2 { animation-delay: .35s; } .r3 { animation-delay: .6s; }
+    .r4 { animation-delay: .8s; } .r5 { animation-delay: 1s; }
+    @keyframes rise { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: none; } }
+
+    /* odômetro: a coluna de números rola até o 7 */
+    .roll { animation: roll 2.2s cubic-bezier(.2,.7,.1,1) 1s both; }
+    @keyframes roll { from { transform: translateY(0); } to { transform: translateY(-448px); } }
+
+    .orbit { animation: spin 9s linear infinite; transform-origin: 786px 196px; }
+    @keyframes spin { to { transform: rotate(360deg); } }
+
+    .live { animation: live 1.8s ease-in-out infinite; }
+    @keyframes live { 50% { opacity: .3; } }
+
+    .shine { animation: shine 5s ease-in-out infinite 2s; }
+    @keyframes shine { 0% { transform: translateX(-300px); } 40%, 100% { transform: translateX(1100px); } }
+
+    @media (prefers-reduced-motion: reduce) {
+      .rise { animation: none; opacity: 1; }
+      .roll { animation: none; transform: translateY(-448px); }
+      .orbit, .live, .shine { animation: none; }
+    }
+  </style>
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#14111f"/>
+      <stop offset="1" stop-color="#0b0a12"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.1" cy="0" r="0.8">
+      <stop offset="0" stop-color="#a78bfa" stop-opacity=".18"/>
+      <stop offset="1" stop-color="#a78bfa" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="tile" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1c1830"/>
+      <stop offset="1" stop-color="#15121f"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" x2="1">
+      <stop offset="0" stop-color="#a78bfa"/>
+      <stop offset="1" stop-color="#f0abfc"/>
+    </linearGradient>
+    <linearGradient id="sh" x1="0" x2="1">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#fff" stop-opacity=".06"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="card"><rect x="1" y="1" width="878" height="278" rx="18"/></clipPath>
+    <clipPath id="odo"><rect x="56" y="150" width="60" height="64"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#card)">
+    <rect width="880" height="280" fill="url(#bg)"/>
+    <rect width="880" height="280" fill="url(#glow)"/>
+    <rect class="shine" x="0" y="0" width="240" height="280" fill="url(#sh)" transform="skewX(-20)"/>
+  </g>
+  <rect x="0.5" y="0.5" width="879" height="279" rx="18" fill="none" stroke="#2a2440"/>
+
+  <!-- topo -->
+  <g class="rise r1">
+    <circle cx="40" cy="42" r="4" fill="#a78bfa" class="live"/>
+    <text x="54" y="47" class="mono" font-size="12.5" fill="#8b84a8">online · construindo e automatizando</text>
+  </g>
+  <g class="rise r2">
+    <text x="36" y="104" class="sans" font-size="46" font-weight="800" fill="#f5f3ff" letter-spacing="-1">Victor</text>
+    <text x="196" y="104" class="sans" font-size="22" font-weight="500" fill="url(#accent)">desenvolvedor · automação de processos</text>
+  </g>
+
+  <!-- tiles -->
+  <g class="rise r3">
+    <rect x="36" y="132" width="240" height="112" rx="14" fill="url(#tile)" stroke="#2a2440"/>
+    <g clip-path="url(#odo)">
+      <g class="roll sans" font-size="56" font-weight="800" fill="#f5f3ff">
+        <text x="56" y="206">0</text><text x="56" y="270">1</text><text x="56" y="334">2</text><text x="56" y="398">3</text>
+        <text x="56" y="462">4</text><text x="56" y="526">5</text><text x="56" y="590">6</text><text x="56" y="654">7</text>
+      </g>
+    </g>
+    <text x="102" y="178" class="sans" font-size="15" font-weight="600" fill="#c4b5fd">anos</text>
+    <text x="102" y="198" class="sans" font-size="15" fill="#8b84a8">de mercado</text>
+    <text x="56" y="230" class="mono" font-size="11.5" fill="#6b6488">experiência real em produção</text>
+  </g>
+
+  <g class="rise r4">
+    <rect x="292" y="132" width="296" height="112" rx="14" fill="url(#tile)" stroke="#2a2440"/>
+    <text x="312" y="200" class="sans" font-size="48" font-weight="800" fill="#f5f3ff">ADS</text>
+    <text x="428" y="178" class="sans" font-size="15" font-weight="600" fill="#c4b5fd">formado</text>
+    <text x="428" y="198" class="sans" font-size="15" fill="#8b84a8">graduação completa</text>
+    <text x="312" y="230" class="mono" font-size="11" fill="#6b6488">Análise e Desenvolvimento de Sistemas</text>
+  </g>
+
+  <g class="rise r5">
+    <rect x="604" y="132" width="240" height="112" rx="14" fill="url(#tile)" stroke="#2a2440"/>
+    <text x="624" y="178" class="sans" font-size="15" font-weight="600" fill="#c4b5fd">foco</text>
+    <text x="624" y="200" class="sans" font-size="17" font-weight="700" fill="#f5f3ff">automatizar</text>
+    <text x="624" y="220" class="sans" font-size="17" font-weight="700" fill="#f5f3ff">processos</text>
+    <!-- engrenagem girando -->
+    <g class="orbit">
+      <circle cx="786" cy="196" r="22" fill="none" stroke="url(#accent)" stroke-width="5" stroke-dasharray="7 5.5"/>
+      <circle cx="786" cy="196" r="9" fill="none" stroke="#a78bfa" stroke-width="3"/>
+    </g>
+  </g>
+</svg>
