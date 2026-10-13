@@ -37,7 +37,7 @@ Sou o **Victor**, formado em **Análise e Desenvolvimento de Sistemas**, com **7
 ### Atividade recente
 
 <!-- ATIVIDADE:INICIO -->
-- **[topwatch](https://github.com/victorhugoantonio1/topwatch)** · Reduz a carga nos servidores · <sub>13 out</sub>
+- **[topwatch](https://github.com/victorhugoantonio1/topwatch)** · Site: ícone da aba vira o robozinho · <sub>13 out</sub>
 <!-- ATIVIDADE:FIM -->
 
 <picture>
