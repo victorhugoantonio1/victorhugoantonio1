@@ -37,7 +37,7 @@ Sou o **Victor**, formado em **Análise e Desenvolvimento de Sistemas**, com **7
 ### Atividade recente
 
 <!-- ATIVIDADE:INICIO -->
-- **[topwatch](https://github.com/victorhugoantonio1/topwatch)** · Laboratório Zabbix · <sub>12 out</sub>
+- **[topwatch](https://github.com/victorhugoantonio1/topwatch)** · Renomeia o app para TopWatch · <sub>13 out</sub>
 <!-- ATIVIDADE:FIM -->
 
 <picture>
