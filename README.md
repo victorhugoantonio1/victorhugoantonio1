@@ -37,7 +37,7 @@ Sou o **Victor**, formado em **Análise e Desenvolvimento de Sistemas**, com **7
 ### Atividade recente
 
 <!-- ATIVIDADE:INICIO -->
-- **[topwatch](https://github.com/victorhugoantonio1/topwatch)** · Site: Baixar para Windows entrega o TopWatch.msi · <sub>14 out</sub>
+- **[topwatch](https://github.com/victorhugoantonio1/topwatch)** · Visual: lista animada, contador que pula, destaque com transição e sem conexão mais claro; · <sub>20 out</sub>
 <!-- ATIVIDADE:FIM -->
 
 <picture>
