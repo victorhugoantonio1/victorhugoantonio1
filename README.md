@@ -18,7 +18,7 @@ Sou o **Victor**, formado em **Análise e Desenvolvimento de Sistemas**, com **7
   <tr>
     <td width="50%" valign="top">
       <b>Domínio</b><br /><br />
-      <code>HTML</code> <code>CSS</code> <code>Observabilidade</code> <code>Virtualização</code> <code>Sysadmin</code>
+      <code>HTML</code> <code>CSS</code> <code>Java</code> <code>TypeScript</code> <code>Python</code>
     </td>
     <td width="50%" valign="top">
       <b>Em desenvolvimento</b><br /><br />
