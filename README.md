@@ -37,6 +37,7 @@ Sou o **Victor**, formado em **Análise e Desenvolvimento de Sistemas**, com **7
 ### Atividade recente
 
 <!-- ATIVIDADE:INICIO -->
+- **[estudos-nestjs-api](https://github.com/victorhugoantonio1/estudos-nestjs-api)** · Pratica 1 e licoes 0001 a 0003 · <sub>29 out</sub>
 - **[topwatch](https://github.com/victorhugoantonio1/topwatch)** · README: bordas e arrasto, histórico com médias, conexão perdida, dados locais e configuraç · <sub>21 out</sub>
 <!-- ATIVIDADE:FIM -->
 
