@@ -216,7 +216,7 @@ const PERFIL = {
   sobre:
     "Welcome to my profile! I'm Victor Hugo Antonio, a Systems Analysis and Development graduate working as an Infrastructure Analyst, focused on AIOps and observability. I love programming and keep growing as a developer, currently learning Java and Spring Boot.",
   prateleira: ['JS', 'SB', 'JV', 'PY', 'HT', 'CS'], // um cartucho por item, na ordem da estante
-  ocultar: ['topwatch'], // repositórios que não aparecem nos cards
+  ocultar: [], // repositórios que não aparecem nos cards (ex.: ['nome-do-repo'])
 };
 
 // ---------------------------------------------------------------- a sala
