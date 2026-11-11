@@ -14,6 +14,7 @@
 
 <!-- PROJETOS:INICIO -->
 <p align="left">
+  <a href="https://github.com/victorhugoantonio1/topwatch"><img src="assets/projeto-topwatch.svg" alt="topwatch: TopWatch: TopBar para Observabilidade" width="49%" /></a>
   <a href="https://github.com/victorhugoantonio1/estudos-nestjs-api"><img src="assets/projeto-estudos-nestjs-api.svg" alt="estudos-nestjs-api: ver projeto" width="49%" /></a>
 </p>
 <!-- PROJETOS:FIM -->
